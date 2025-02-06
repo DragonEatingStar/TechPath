@@ -1,0 +1,15 @@
+# 忽略 pycache 和编译文件
+*.pyc
+__pycache__/
+
+# 忽略 Conda 虚拟环境（如果你的虚拟环境是和项目在一起）
+venv/
+env/
+.conda/
+conda-meta/
+
+# 忽略数据库
+db.sqlite3
+
+# 忽略 VSCode 配置文件（如果使用 VSCode 开发）
+.vscode/
